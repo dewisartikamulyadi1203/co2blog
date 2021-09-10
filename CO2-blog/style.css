@@ -1,0 +1,172 @@
+/*
+Theme Name: CO2 Blog
+Theme URI: https://codingcollective.com
+Author: Magang PNP
+Author URI: https://codingcollective.com
+Description: Tema yang dirancang khusus untuk blog CO2 yang menggunakan font-awesome dan font-roboto.
+Tags: blog, one-colume, custom-background, custom colors, custom-logo, custom-menu, editor-style, featured-images
+footer-widgets, full-widht-template, theme-options, blog-styles
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: co2
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Header CSS*/
+header .container{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-dark{
+    background-color: #2f2f2f !important;
+}
+
+.nav ol, ul{
+    padding: 1rem;
+    margin: auto;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    padding: .3125rem .625rem;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: 500;
+}
+
+.title{
+    display: inline-block;
+    padding: .3125rem .625rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.logo{
+    display: inline-block;
+    padding: .3125rem .625rem;
+    margin-left: 3rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.banner{
+    margin-top: 44px;
+    margin-bottom: 44px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .kiri, .banner .kanan{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+.banner .kiri h3{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container h3{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container h5{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img{
+    display: inline-block;
+    margin-left: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
